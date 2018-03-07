@@ -21,5 +21,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func didTapButton(_ sender: Any) {
+        let secondVC = SecondViewController()
+        self.navigationController?.pushViewController(secondVC, animated: false)
+    }
 }
 
